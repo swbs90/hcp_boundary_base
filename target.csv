@@ -1,0 +1,4 @@
+key,target_name,description,type,default_port,egress_tag_key,egress_tag_value,ingress_tag_key,ingress_tag_value
+1,aws_ws,aws workspace rdp,tcp,3389,/tags/owner,downstream,/tags/owner,upstream
+2,ung,rdp target,tcp,3389,/tags/owner,downstream,/tags/owner,upstream
+3,hee,rdp target,tcp,3389,/tags/owner,downstream,/tags/owner,upstream
